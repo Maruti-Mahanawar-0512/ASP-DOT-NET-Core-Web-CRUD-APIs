@@ -29,7 +29,7 @@ namespace ASP_DOT_NET_Core_Web_APIs.Services
 
             }
             catch (Exception)
-            {
+    {
                 return new Tuple<int, string>(3, "Something Went Wrong");
             }
         }
